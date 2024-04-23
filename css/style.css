@@ -29,24 +29,29 @@
   font-weight: 600;
 }
 
+
 .fw-medium {
   font-weight: 500;
 }
+
 
 .btn-square {
   width: 40px;
   height: 40px;
 }
 
+
 .btn-sm-square {
   width: 30px;
   height: 30px;
 }
 
+
 .btn-lg-square {
   width: 50px;
   height: 50px;
 }
+
 
 .btn-square,
 .btn-sm-square,
@@ -57,9 +62,13 @@
   justify-content: center;
 }
 
+
+
 .btn.btn-primary {
   color: #FFFFFF;
 }
+
+
 
 .typed-cursor {
   font-size: 25px;
@@ -151,7 +160,7 @@
 .service-item {
   padding: 30px;
   text-align: center;
-  background: var(--secondary);
+  background: #73695c80;
 }
 
 .service-item i {
@@ -161,13 +170,13 @@
   align-items: center;
   justify-content: center;
   background: var(--light);
-  color: var(--primary);
+  color: #bd1712a6;
   transition: .5s;
 }
 
 .service-item:hover i {
   background: var(--primary);
-  color: var(--light);
+  color: #bd1712a6;
 }
 
 .portfolio-item .portfolio-btn {
