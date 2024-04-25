@@ -203,11 +203,11 @@ sup {
   top: -0.5em;
 }
 a {
-  color: #00b87b;
+  color: #bd1712a6;
   text-decoration: none;
 }
 a:hover {
-  color: #009362;
+  color: #e40d06a6;
 }
 a:not([href]):not([class]),
 a:not([href]):not([class]):hover {
@@ -1812,6 +1812,7 @@ progress {
   font-size: 0.875em;
   color: #6c757d;
 }
+
 .form-control {
   display: block;
   width: 100%;
@@ -1819,7 +1820,7 @@ progress {
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.5;
-  color: #eee;
+  color: #988c80;
   background-color: #fff;
   background-clip: padding-box;
   border: 1px solid #ced4da;
@@ -1827,6 +1828,8 @@ progress {
   border-radius: 0;
   transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
 }
+
+
 @media (prefers-reduced-motion: reduce) {
   .form-control {
     transition: none;
@@ -1839,11 +1842,11 @@ progress {
   cursor: pointer;
 }
 .form-control:focus {
-  color: #eee;
+  color: #988c80;
   background-color: #fff;
-  border-color: #80dcbd;
+  border-color: #988c80;
   outline: 0;
-  box-shadow: 0 0 0 0.25rem rgba(0, 184, 123, 0.25);
+  box-shadow: 0 0 0 0.25rem #988c80;
 }
 .form-control::-webkit-date-and-time-value {
   height: 1.5em;
@@ -2536,9 +2539,9 @@ fieldset:disabled .btn {
 .btn-check:focus + .btn-primary,
 .btn-primary:focus {
   color: #000;
-  background-color: #26c38f;
-  border-color: #1abf88;
-  box-shadow: 0 0 0 0.25rem rgba(0, 156, 105, 0.5);
+  background-color: #988c80;
+  border-color: #988c80;
+  box-shadow: 0 0 0 0.25rem #988c80;
 }
 .btn-check:checked + .btn-primary,
 .btn-check:active + .btn-primary,
@@ -2546,15 +2549,15 @@ fieldset:disabled .btn {
 .btn-primary.active,
 .show > .btn-primary.dropdown-toggle {
   color: #000;
-  background-color: #33c695;
-  border-color: #1abf88;
+  background-color: #988c80;
+  border-color: #988c80;
 }
 .btn-check:checked + .btn-primary:focus,
 .btn-check:active + .btn-primary:focus,
 .btn-primary:active:focus,
 .btn-primary.active:focus,
 .show > .btn-primary.dropdown-toggle:focus {
-  box-shadow: 0 0 0 0.25rem rgba(0, 156, 105, 0.5);
+  box-shadow: 0 0 0 0.25rem #988c80;
 }
 
 
@@ -2562,8 +2565,8 @@ fieldset:disabled .btn {
 .btn-primary:disabled,
 .btn-primary.disabled {
   color: #000;
-  background-color: #00b87b;
-  border-color: #00b87b;
+  background-color: #988c80;
+  border-color: #988c80;
 }
 
 

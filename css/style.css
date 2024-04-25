@@ -90,11 +90,11 @@
 }
 
 .back-to-top i {
-  color: var(--primary);
+  color: #bd1712a6;
 }
 
 .back-to-top i:hover {
-  color: var(--dark);
+  color: #e40d06a6;
 }
 
 .back-to-top {
@@ -223,5 +223,5 @@
 }
 
 .testimonial-carousel .owl-dot.active {
-  background: var(--primary);
+  background: #bd1712a6;
 }
